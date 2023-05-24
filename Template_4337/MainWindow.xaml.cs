@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Template_4337
 {
     /// <summary>
@@ -29,6 +30,12 @@ namespace Template_4337
         {
             var window = new Khuzyakaev_4337();
             window.Show();
+        }
+
+        private void Galiullin_Click(object sender, RoutedEventArgs e)
+        {
+            var Gal = new Galiullin();
+            Gal.Show();
         }
     }
 }
