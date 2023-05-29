@@ -29,6 +29,8 @@
             </TextBlock>
             <Button x:Name="toDBfromExel" Content="Из JSON в БД" Click="toDBfromExel_Click"  Style="{StaticResource ButtonStyle}"></Button>
             <Button x:Name="toExelfromDB" Content="Из БД в WORD" Click="toExelfromDB_Click"  Style="{StaticResource ButtonStyle}"></Button>
+            <Button x:Name="toDB" Content="Из Exel в БД" Click="toDB_Click"  Style="{StaticResource ButtonStyle}"></Button>
+            <Button x:Name="toExel" Content="Из БД в exel" Click="toExel_Click"  Style="{StaticResource ButtonStyle}"></Button>
         </StackPanel>
     </Grid>
 </Window>
